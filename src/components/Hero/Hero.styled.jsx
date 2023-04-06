@@ -3,7 +3,14 @@ import styled from 'styled-components';
 export const HeroSection = styled.section`
   position: relative;
   height: 100%;
+  
+  justify-content: space-between;
+  flex-direction: column;
+`;
+
+export const HeroWrapper = styled.div`
   padding-top: 72px;
+  padding-bottom: 70px;
 `;
 
 export const HeroBoxTop = styled.div`
